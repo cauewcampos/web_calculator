@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="janela">
+        <h2>Simple Calculator</h2><input id="num-one" name="num-one" type="text"><input id="num-two" name="num-two" type="text"><br>
+        <br>
+        <input checked id="box1" type="radio" name="sign-area" value="add"><b>+</b>
+        <input id="box2" type="radio" name="sign-area" value="subtract"><b>-</b>
+        <input id="box3" type="radio" name="sign-area" value="multiply"><b>*</b>
+        <input id="box4" type="radio" name="sign-area" value="divide"><b>/</b>
+        <br>
+        <button onclick="outcome()" type="button">CALCULATE</button>
+        <h1 id="resultArea"></h1>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
