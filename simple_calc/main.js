@@ -13,5 +13,5 @@ function outcome () {
         total = firstNum * secNum
     else
         total = firstNum / secNum
-    document.getElementById('resultArea').innerHTML = 'Resultado: ' + String(total)
+    document.getElementById('resultArea').innerHTML = 'Result: ' + String(total)
 }
